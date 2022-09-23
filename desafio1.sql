@@ -5,7 +5,7 @@ DROP DATABASE IF EXISTS SpotifyClone;
   CREATE TABLE SpotifyClone.subscription(
   subscription_id INT AUTO_INCREMENT PRIMARY KEY,
   subscription_name VARCHAR(90) NOT NULL,
-  subscription_price INT NOT NULL
+  subscription_price DOUBLE NOT NULL
   ) engine = InnoDB;
 
   CREATE TABLE SpotifyClone.user(
@@ -134,7 +134,7 @@ VALUES
 
   INSERT INTO SpotifyClone.history (play_date, music_id, user_id )
 VALUES
-('2022-02-28 10:45:55', 6, 1),
+('2022-02-28 10:45:55', 8, 1),
 ('2020-05-02 05:30:35', 2, 1),
 ('2020-03-06 11:22:33', 10, 1),
 ('2022-08-05 08:05:17', 10, 2),
