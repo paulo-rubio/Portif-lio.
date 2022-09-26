@@ -5,7 +5,7 @@ DROP DATABASE IF EXISTS SpotifyClone;
   CREATE TABLE SpotifyClone.subscription(
   subscription_id INT AUTO_INCREMENT PRIMARY KEY,
   subscription_name VARCHAR(90) NOT NULL,
-  subscription_price DOUBLE NOT NULL
+  subscription_price NUMERIC(3, 2) NOT NULL
   ) engine = InnoDB;
 
   CREATE TABLE SpotifyClone.user(
