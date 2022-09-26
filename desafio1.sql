@@ -114,9 +114,9 @@ VALUES
   ('Jazz',  2, 1978),
   ('Hot Space',  2 ,1982),
   ('Falso Brilhante', 3, 1998),
-  ('Vento de maio',  3, 2001),
-  ('QCCJFA?',  4, 2003),
-  ('Somewhere far Beyond',  5, 2007),
+  ('Vento de Maio',  3, 2001),
+  ('QVVJFA?',  4, 2003),
+  ('Somewhere Far Beyond',  5, 2007),
   ('I Put A Spell On You',  6, 2012);
 
   INSERT INTO SpotifyClone.music (music_name, music_length, album_id)
