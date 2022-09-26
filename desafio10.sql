@@ -1,5 +1,5 @@
 SELECT m.music_name AS 'nome',
-    COUNT(*) AS 'reproducao'
+    COUNT(*) AS 'reproducoes'
 FROM SpotifyClone.music m
     INNER JOIN SpotifyClone.history h ON m.music_id = h.music_id
     INNER JOIN SpotifyClone.user u ON h.user_id = u.user_id
@@ -9,4 +9,4 @@ WHERE
 GROUP BY 
     m.music_id
 ORDER BY
-    m.music_name
+    m.music_name;
